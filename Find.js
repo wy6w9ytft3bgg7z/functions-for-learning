@@ -1,2 +1,1 @@
-const randomBoolean = () => Math.random() >= 0.5;
-console.log(typeof typeof 1);
+const currentDate = () => new Date().toLocaleDateString('en-US');
