@@ -1,2 +1,2 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-var DELIM_SIZE = 4;
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const uniqueArr = (arr) => [...new Set(arr)];
