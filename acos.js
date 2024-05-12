@@ -1,2 +1,2 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const uniqueArr = (arr) => [...new Set(arr)];
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
