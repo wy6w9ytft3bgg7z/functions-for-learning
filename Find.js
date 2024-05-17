@@ -1,2 +1,2 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
