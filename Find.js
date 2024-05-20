@@ -1,2 +1,3 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-console.log(+"1" +  "1" + "2");
+const uniqueArray = arr => [...new Set(arr)];
+console.log("0 && 1 = "+(0 && 1));
+const merge = Object.assign({}, obj1, obj2);
