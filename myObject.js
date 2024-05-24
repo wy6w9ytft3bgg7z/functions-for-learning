@@ -1,3 +1,2 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const removeDuplicates = (arr) => [...new Set(arr)];
-console.log( "A" - "B" + 2);
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
