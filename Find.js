@@ -1,3 +1,3 @@
-const uniqueArray = arr => [...new Set(arr)];
-console.log("0 && 1 = "+(0 && 1));
-const merge = Object.assign({}, obj1, obj2);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+[foo, bar] = [bar, foo];
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
