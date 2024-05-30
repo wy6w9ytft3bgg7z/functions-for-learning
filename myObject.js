@@ -1,2 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const merge = Object.assign({}, obj1, obj2);
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
