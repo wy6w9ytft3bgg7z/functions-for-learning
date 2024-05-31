@@ -1,2 +1,3 @@
-const merge = Object.assign({}, obj1, obj2);
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const result = await makeHttpRequest(url);
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
