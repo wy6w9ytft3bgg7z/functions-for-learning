@@ -1,2 +1,1 @@
-const merge = (a, b) => [...a, ...b];
-const isEven = (num) => num % 2 === 0;
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
