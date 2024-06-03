@@ -1,2 +1,3 @@
-console.log("0 || 1 = "+(0 || 1));
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const updated = numbers.filter(element => element > 6);
+const apmRootPath = path.join(repositoryRootPath, 'apm');
