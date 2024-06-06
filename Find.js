@@ -1,1 +1,2 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const stringReverse = str => str.split("").reverse().join("");
