@@ -1,2 +1,3 @@
-console.log(+"1" +  "1" + "2");
-var arr3 = "jones".split('');
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+var arr2 = arr1.reverse();
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
