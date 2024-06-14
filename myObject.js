@@ -1,3 +1,3 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-var arr2 = arr1.reverse();
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const updated = numbers.filter(element => element > 6);
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+console.log(false === '0');
