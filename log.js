@@ -1,2 +1,2 @@
-const fullName = name || 'buddy';
-console.log(false === '0');
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const merge = [...new Set([...a, ...b])];
