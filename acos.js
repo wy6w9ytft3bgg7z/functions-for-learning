@@ -1,1 +1,1 @@
-const toggleBool = () => (bool = !bool);
+console.log(+"1" +  "1" + "2");
