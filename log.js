@@ -1,3 +1,3 @@
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const isEven = (num) => num % 2 === 0;
+var DELIM_SIZE = 4;
+const isEmptyArray = arr => !arr.length;
