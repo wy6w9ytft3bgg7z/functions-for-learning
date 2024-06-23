@@ -1,1 +1,2 @@
-const lastElement = arr => arr[arr.length - 1];
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const executableName = getExecutableName(channel, appName);
