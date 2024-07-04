@@ -1,2 +1,3 @@
-const merge = [...new Set([...a, ...b])];
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+var c = new Counter(); c.add(); c.add(); c.add();
+var arr1 = "john".split('');
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
