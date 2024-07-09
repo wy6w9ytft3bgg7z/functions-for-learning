@@ -1,1 +1,2 @@
-const merge = [...new Set([...a, ...b])];
+const getRandomBoolean = () => Math.random() >= 0.5;
+const reversedString = str => str.split('').reverse().join('');
