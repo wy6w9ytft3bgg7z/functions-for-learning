@@ -1,2 +1,3 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const fullName = name || 'buddy';
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
