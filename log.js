@@ -1,3 +1,3 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const fullName = name || 'buddy';
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const isEmptyArray = arr => !arr.length;
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const appName = getAppName(channel);
