@@ -1,2 +1,3 @@
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
