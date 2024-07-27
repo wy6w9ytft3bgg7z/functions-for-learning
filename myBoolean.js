@@ -1,3 +1,2 @@
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-function myAPITS(someString: string, someNum: number) { ... };
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
