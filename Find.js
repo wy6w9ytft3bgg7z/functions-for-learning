@@ -1,2 +1,3 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+console.log("1 && 2 = "+(1 && 2));
+const maxNumber = arr => Math.max(...arr);
