@@ -1,1 +1,1 @@
-const uniqueArr = (arr) => [...new Set(arr)];
+var arr1 = "john".split('');
